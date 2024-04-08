@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <style>
+    /* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling header */
+header {
+    background-color: #f2c48e;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling navigation */
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* Styling main content */
+.main {
+    padding: 20px;
+}
+
+.banner {
+    background-image:url();
+    background-size:cover;
+    font-size: 250%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    text-align: center;
+
+}
+
+.products {
+   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.product {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: scale(1.1);
+}
+
+.product img {
+    max-width: 70%;
+    border-radius: 5px;
+}
+body {
+    background-image:url(https://i.etsystatic.com/17340733/r/il/f510fa/4967253322/il_1588xN.4967253322_924j.jpg);
+    background-repeat:no-repeat;
+    background-size:100% 170%;
+}
+ </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Bakery</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about%20us.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="banner">
+            <h2>Delicious Treats Await!</h2>
+        </section>
+        <section class="products">
+            <h2>Our Specialties</h2>
+            <a href="BREAD.HTML">
+           <div class="product">
+                <img src="https://s3.envato.com/files/316488521/Bread002-7462.jpg" alt="Fresh Bread">
+                <h3>Fresh Bread</h3>
+            </div>
+            </a>
+            <a href="CAKE.HTML">
+            <div class="product">
+                <img src="https://images.immediate.co.uk/production/volatile/sites/2/2015/12/17929.jpg?quality=90&crop=2px,0px,596px,542px&resize=556,505" alt="Homemade Cake">
+                
+                <h3> Cake</h3>
+            </div>
+        </a>
+        </section>
+    </main>
+   <!---- <footer>
+        <p>&copy; 2024 Bakery Website. All rights reserved.</p>
+    </footer>--->
+</body>
+</html>
